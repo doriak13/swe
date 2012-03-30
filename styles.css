@@ -1,0 +1,176 @@
+/**
+ * Project Manager: Main stylesheet
+ * Written by Kevin Doria  
+ */ 
+
+body
+{
+    background-color: #FFFFFF;
+    color: #000000;
+    font-family: verdana;
+    font-size: 10pt;
+}
+
+a:link
+{
+    text-decoration: underline;
+    color: #FF0000;
+    font-family: verdana;
+    font-size: 10pt;
+}
+
+a:visited
+{
+    text-decoration: underline;
+    color: #990000;
+    font-family: verdana;
+    font-size: 10pt;
+}
+
+a:active
+{
+    text-decoration: underline;
+    color: #000000;
+    font-family: verdana;
+    font-size: 10pt;
+}
+
+a:hover
+{
+    text-decoration: none;
+    font-family: verdana;
+    font-size: 10pt;
+}
+
+div.main
+{
+    margin-top: 24px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 8px;
+    width: 95%;
+    border: 1px solid #CCCCCC;
+}
+
+div.main div#menu
+{
+    width: 15%;
+}
+
+div.main div#content
+{
+    width: 85%;
+}
+
+div.main div#menu div.menu_top
+{
+    display: block;
+    background-color: #660000;
+    color: #FFFFFF;
+    font-family: verdana;
+    font-size: 10pt;
+    border: 1px outset #FF0000;
+    margin: 2px;
+    cursor: default;
+}
+
+div.main div#menu div.menu_top a:link,
+div.main div#menu div.menu_top a:visited,
+div.main div#menu div.menu_top a:active
+{
+    color: #FFFF00;
+    font-family: verdana;
+    font-size: 10pt;
+    text-decoration: none;
+}
+
+div.main div#menu div.menu_top a:hover
+{
+    color: #FFCC00;
+    font-family: verdana;
+    font-size: 10pt;
+    text-decoration: none;
+}
+
+div.main div#menu div.menu_title
+{
+    display: block;
+    background-color: #990000;
+    color: #FFFFFF;
+    font-family: verdana;
+    font-size: 10pt;
+    border: 1px outset #FF0000;
+    margin: 2px;
+    cursor: pointer;
+}
+
+div.main div#menu div.menu_links
+{
+    display: none;
+    background-color: #FFFFFF;
+    color: #FFFFFF;
+    font-family: verdana;
+    font-size: 10pt;
+    border: none;
+    margin: 2px;
+    cursor: default;
+}
+
+div.main div#menu div.menu_links a:link,
+div.main div#menu div.menu_links a:visited,
+div.main div#menu div.menu_links a:active
+{
+    display: block;
+    color: #222222;
+    font-family: verdana;
+    font-size: 10pt;
+    text-decoration: none;
+}
+
+div.main div#menu div.menu_links a:hover
+{
+    display: block;
+    color: #FF0000;
+    font-family: verdana;
+    font-size: 10pt;
+    text-decoration: none;
+}
+
+div.left
+{
+    display: table-cell;
+}
+
+div.right
+{
+    display: table-cell;
+    padding-left: 16px;
+}
+
+.textbox
+{
+    background-color: #FFFFFF;
+    color: #000000;
+    font-family: calibri, verdana;
+    font-size: 10px;
+    letter-spacing: 1px;
+    border: 1px solid #000000;
+}
+
+.button
+{
+    background-color: #CCCCCC;
+    color: #000000;
+    font-family: verdana;
+    font-size: 10px;
+    border: 1px solid #000000;
+}
+
+.areabox
+{
+    background-color: #FFFFFF;
+    color: #000000;
+    font-family: 'courier new', verdana;
+    font-size: 12px;
+    border: 1px solid #000000;
+}
